@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Addrecipie from './components/Addrecipie';
 
 function App() {
   return (
     <div>
-      <p>Helloi</p>
+
+      <Addrecipie />
     </div>
   );
 }
