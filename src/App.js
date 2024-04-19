@@ -8,23 +8,15 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-
   <div>
  <BrowserRouter>
      <Routes>
-    
      <Route path='/add' element={<Addrecipie/>}/>
      <Route path='/search' element={<Searchrecipie/>}/>
      <Route path='/view' element={<Viewall/>}/>
      </Routes>
      </BrowserRouter>
   </div>
-   
-  
-     
-
-
   );
 }
-
 export default App;
